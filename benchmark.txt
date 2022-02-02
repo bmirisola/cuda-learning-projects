@@ -1,0 +1,14 @@
+2308098831 ns
+2289095272 ns
+
+Optomize and profile
+1 thread and 1 block 2311742672 ns
+1024 threads and 1 block 144990683 ns
+1 thread and 1024 blocks 127264713 ns
+1024 threads and 1024 Blocks 161494697 ns
+
+1024 threads and SM blocks 135,809,761 ns
+1024 threads and SM*20 blocks 132,305,786 ns
+32 threads and SM*20 blocks 129,244,820 ns
+64 threads and SM*20 blocks 128,343,844 ns
+64 threads and SM*24 blocks 
